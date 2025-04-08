@@ -16,14 +16,14 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Impacto e Legado</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Reconhecimento</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+          <ThemedText type="defaultSemiBold">Os Scorpions são considerados uma das bandas de rock mais bem-sucedidas de todos os tempos, com mais de 100 milhões de álbuns vendidos em todo o mundo.</ThemedText>
+          {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
@@ -31,7 +31,6 @@ export default function HomeScreen() {
               web: 'F12'
             })}
           </ThemedText>{' '}
-          to open developer tools.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>

@@ -35,15 +35,17 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Formação e História</ThemedText>
         <ThemedText>
-        "Alice no País das Maravilhas" é um filme de 2010 dirigido por Tim Burton, que traz uma nova perspectiva sobre a clássica história de Lewis Carroll. A trama segue Alice, agora com 19 anos, que retorna ao mundo fantástico que visitou na infância, onde encontra personagens icônicos e enfrenta desafios em sua jornada de autodescoberta.
+Fundação: A banda foi formada pelo guitarrista Rudolf Schenker. Os membros fundadores incluíam também o vocalista Klaus Meine, que se juntou à banda em 1969.
+Mudanças de Formação: Ao longo dos anos, a formação da banda passou por várias mudanças. Os membros mais conhecidos incluem Klaus Meine (vocal), Rudolf Schenker (guitarra), Matthias Jabs (guitarra solo), Francis Buchholz (baixo) e Herman Rarebell (bateria).
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Sobre o Livro</ThemedText>
+        <ThemedText type="subtitle"> Estilo Musical</ThemedText>
         <ThemedText>
-        O livro conta a história de uma menina chamada Alice que cai numa toca de coelho que a transporta para um lugar fantástico povoado por criaturas peculiares e antropomórficas, revelando uma lógica do absurdo, característica dos sonhos. Este está repleto de alusões satíricas dirigidas tanto aos amigos como aos inimigos de Carroll, de paródias a poemas populares infantis ingleses ensinados no século XIX e também de referências linguísticas e matemáticas frequentemente através de enigmas que contribuíram para a sua popularidade. É assim uma obra de difícil interpretação pois contém dois livros num só texto: um para crianças e outro para adultos.
+Gênero: Os Scorpions são frequentemente associados ao hard rock e heavy metal, mas também incorporam elementos de rock progressivo e rock alternativo em algumas de suas músicas.
+Influências: A banda foi influenciada por bandas de rock dos anos 60 e 70, como The Beatles, The Rolling Stones e Led Zeppelin.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
